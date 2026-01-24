@@ -99,6 +99,10 @@ pattern = r"\w"
 word_chars = re.findall(pattern, text)
 print("Word characters (\w) =", word_chars)
 
+
+
+########################################################################################
+
 # Matches any non-word character
 # Opposite of \w
 text = "Hello_World123 @#$%"
